@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+outputs/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.csv
+*.csv.gz
+!tests/fixtures/*.csv
+!reports/week10/*.csv

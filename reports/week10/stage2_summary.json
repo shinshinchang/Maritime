@@ -1,0 +1,24 @@
+{
+  "total_candidates": 386230,
+  "unique_days_with_candidates": 16,
+  "size_3": 113224,
+  "size_4": 63464,
+  "size_5": 41005,
+  "greater_than_100_ships": 3032,
+  "small_slow_compact_snapshots": 178982,
+  "exact_member_runs_6plus_bins": 2842,
+  "selected_distinct_cases": 5,
+  "median_group_diameter_nm": 0.3528,
+  "median_group_mean_speed_kn": 0.167,
+  "data_time_bins": 2883,
+  "dataset_time_start_utc": "2026-06-05T15:59:10+00:00",
+  "dataset_time_end_utc": "2026-10-28T10:00:25+00:00",
+  "limitations": [
+    "A case is identified only when exactly the same 3–8 vessels occur in six or more consecutive 5-minute snapshots.",
+    "Observed span is (number of snapshot intervals - 1) * 5 minutes; actual physical duration needs raw AIS verification.",
+    "A group may appear in many snapshots; results are not independent events.",
+    "Daily bins counted here are only bins with candidates, not every bin with AIS.",
+    "Scatter plots use latitude/longitude without coastline or port basemap; not evidence of being offshore.",
+    "A CSV file part may cover sparse, noncontiguous dates, so daily comparisons are not comparable exposure estimates."
+  ]
+}
